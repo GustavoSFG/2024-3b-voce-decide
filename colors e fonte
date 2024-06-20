@@ -1,0 +1,37 @@
+--rosy-brown: #cf9893ff;
+--puce: #bc7c9cff;
+--african-violet: #a96da3ff;
+--chinese-violet: #7a5980ff;
+--space-cadet: #3b3b58ff;
+
+
+html
+font titulo
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
+
+----------------------------------------------------------------------------------
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+</style>
+
+----------------------------------------------------------------------------------------
+
+css 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  --------------------------------------------------
+
+  .lxgw-wenkai-tc-regular {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+--------------------------------  

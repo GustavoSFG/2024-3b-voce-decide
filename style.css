@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=LXGW+WenKai+TC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400px;
+}
+
+:root {
+    --rosa-marrom: #cf9893ff;
+    --marrom-arrosado: #bc7c9cff;
+    --violeta-africano: #a96da3ff;
+    --violeta-chines: #7a5980ff;
+    --estrela-cadente: #3b3b58ff;
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --fonte-texto: "LXGW WenKai TC", cursive;
+}
+
