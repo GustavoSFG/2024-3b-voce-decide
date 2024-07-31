@@ -46,3 +46,44 @@ const perguntas = [
 
     }
 ]
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textcontent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
+
+function mostraPergunta() {
+    if (atual >= perguntaAtual.length) {
+        mostreResultado();
+        return;
+    }
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    mostraAlternativas();
+}
+
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
+        const botaoalternativas = document.createElement("button");
+        botaoalternativas.textContent = alternativa.texto;
+        botaoalternativas.addEventListener("click", () => respostaSelecionada(alternativa))
+    }
+}
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    atual++;
+    mostraPergunta();
+}
+
+function mostreResultado() {
+
+    caixaPerguntas.textContent = " Em 2049..... ";
+    TextoResultado.textcontent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
