@@ -10,14 +10,14 @@
     --rosa-marrom: #cf9893ff;
     --marrom-arrosado: #bc7c9cff;
     --violeta-africano: #a96da3ff;
-    --violeta-chines: #7a5980ff;
+    --violeta-chines: rgb(92, 10, 74);
     --estrela-cadente: #3b3b58ff;
     --fonte-titulo: "Bebas Neue", sans-serif;
     --fonte-texto: "LXGW WenKai TC", cursive;
 }
 
 body {
-    background-color: var(--estrela-cadente);
+    background-color: var(--violeta-chines);
     color: var(--marrom-arrosado);
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
 }
 
 .caixa-principal {
-    background-color: var(--estrela-cadente);
+    background-color: var(--violeta-chines);
     width: 90%;
     max-width: 600px;
     text-align: center;
