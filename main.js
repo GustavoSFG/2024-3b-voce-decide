@@ -6,15 +6,15 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Enunciado 01",
+        enunciado: "Miguel é um menino que vinha de uma familia negra, só por essa parte Miguel saberia doque enfrentaria em sua vida, Miguel completou seus 6 anos e vai começar seu primeiro dia de aula, somente por chegar no portão em uma escola publica ja foi visto por más olhos. Após o fim das aulas Miguel chegou em casa e foi contar para sua mãe sobre seu primeiro dia de escola, *Oque Miguel deve fazer?*",
         alternativas: [
             {
-                texto:"alternativa 01",
-                afirmacao: "resultado 01"
+                texto:"Contar a sua mãe sobre o ocorrido",
+                afirmacao: "Depois da fim da aula e sobre os maus olhos quando chegou, Miguel foi correndo para sua mãe e contou tudo, ela ficou muito triste sobre o ocorrido e mandou o Miguel ir para a Aula por mais um dia para ver a reação dos alunos e tomar medidas caso ocorrá novamente."
             },
             {
-                texto:"alternativa 02",
-                afirmacao: "resultado 02"
+                texto:"Mentir para sua mãe sobre o ocorrido",
+                afirmacao: "Depois do fim da aula e sobre os maus olhos, quando Miguel chegou em casa mentiu para sua mãe dizendo que estava tudo bem e a aula foi muito boa e fez amiguinhos novos, sua mãe ficou muito feliz com o ocorrido e deu um abraço nele comemorando oque conseguiu."
             }   
         ]
     },
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = " Inicio do texto... "
+    caixaPerguntas.textContent = " Miguel iniciou sua jornada nesse mundo sem respeito e igualdade, vindo de uma familia negra e pobre mas com condições necessarias, sabia que poderia viver mas não sabia sobre os julgamentos dos outros, Miguel possuindo seus 6 anos começará seu primeiro dia de aula em uma escola publica."
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
